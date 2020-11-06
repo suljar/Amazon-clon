@@ -1,23 +1,24 @@
-import './App.css';
-import Home from './components/./HomePage/HomePage';
-import Header from "./components/partials/Header"
+import React, { useEffect } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Checkout from "./Checkout";
-// import Login from "./Login";
+import Checkout from "./components/Checkout";
+import Login from "./components/Login";
 
 
 export default function App() {
-
+  
   return (
     <Router>
       <div className="App">
         <Switch>
-          {/* <Route path="/login">
+          <Route path="/login">
             <Login />
-          </Route> */}
+          </Route>
           <Route path="/checkout">
             <Header />
-            {/* <Checkout /> */}
+            <Checkout />
           </Route>
           <Route path="/">
             <Header />

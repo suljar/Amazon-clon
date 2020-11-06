@@ -12,9 +12,9 @@
     z-index: 1;
 }
 
-.cardImg{
+.product>img {
+    max-height: 200px;
     width: 100%;
-    height: 300px;
     object-fit: contain;
     margin-bottom: 15px;
 }

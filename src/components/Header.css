@@ -2,7 +2,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #2c567e;
+    background-color: #131921;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -15,16 +15,11 @@
     align-items: center;
 }
 
-.fa-home {
+.header-logo {
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 18px;
-    margin-bottom: 10px;
-    font-size: 60px;
-    color: white;
-
-    
 }
 
 .header-searchInput {
@@ -34,10 +29,10 @@
     width: 100%;
 }
 
-.fa-search {
+.header-searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: #9acfd8;
+    background-color: #cd9042;
 }
 
 .header__option {
